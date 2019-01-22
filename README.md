@@ -14,7 +14,7 @@ Development Setup
 Create a new virtual environment using
 
 ```
-pyenv virtualenv 3.7.2 dependency-checker-worker
+pyenv virtualenv 3.7.2 $(cat .python-version)
 ```
 
 and activate it via
